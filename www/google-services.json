@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "187646798187",
+    "firebase_url": "https://beyou-202711.firebaseio.com",
+    "project_id": "beyou-202711",
+    "storage_bucket": "beyou-202711.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:187646798187:android:4e07c0cffcf962c2",
+        "android_client_info": {
+          "package_name": "com.ionicframework.beyou"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "187646798187-bqb0ueaa5thq0peqb2frjo3ob43n3inu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABUan-iPJ4vcvFiBXH4ac0q_SD-RkXRWc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
