@@ -51,13 +51,13 @@
         <icon height="87" src="resources/ios/icon/icon-small@3x.png" width="87" />
     </platform>
 
-    <splash src="resources/splash.png" />
-    <splash height="480" platform="ios" src="resources/splash/320x480.png" width="320" />
-    <splash height="960" platform="ios" src="resources/splash/640x960.png" width="640" />
-    <splash height="1136" platform="ios" src="resources/splash/640x1136.png" width="640" />
-    <splash height="1334" platform="ios" src="resources/splash/750x1334.png" width="750" />
-    <splash height="2208" platform="ios" src="resources/splash/1242x2208.png" width="1242" />
-    <splash height="1024" platform="ios" src="resources/splash/768x1024.png" width="768" />
+    <!-- <splash src="resources/splash.png" /> -->
+    <splash height="480" src="resources/splash/320x480.png" width="320" />
+    <splash height="960" src="resources/splash/640x960.png" width="640" />
+    <splash height="1136" src="resources/splash/640x1136.png" width="640" />
+    <splash height="1334" src="resources/splash/750x1334.png" width="750" />
+    <splash height="2208" src="resources/splash/1242x2208.png" width="1242" />
+    <splash height="1024" src="resources/splash/768x1024.png" width="768" />
 
     <platform name="android">
         <resource-file src="www/google-services.json" target="app/google-services.json" />
