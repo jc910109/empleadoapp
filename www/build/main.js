@@ -26,7 +26,7 @@ var map = {
 		0
 	],
 	"../pages/calendario/calendario.module": [
-		432,
+		440,
 		10
 	],
 	"../pages/detalle-reserva/detalle-reserva.module": [
@@ -34,35 +34,35 @@ var map = {
 		9
 	],
 	"../pages/horario/horario.module": [
-		433,
+		441,
 		8
 	],
 	"../pages/login/login.module": [
-		434,
+		432,
 		7
 	],
 	"../pages/modal-services/modal-services.module": [
-		435,
+		433,
 		6
 	],
 	"../pages/nreserva/nreserva.module": [
-		437,
+		435,
 		5
 	],
 	"../pages/nreservat/nreservat.module": [
-		436,
+		434,
 		4
 	],
 	"../pages/perfil/perfil.module": [
-		441,
+		436,
 		3
 	],
 	"../pages/reprogramacion/reprogramacion.module": [
-		438,
+		437,
 		2
 	],
 	"../pages/sobreby/sobreby.module": [
-		440,
+		438,
 		1
 	]
 };
@@ -157,16 +157,16 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["IonicModule"].forRoot(__WEBPACK_IMPORTED_MODULE_4__app_component__["a" /* MyApp */], { mode: 'ios', backButtonText: '' }, {
                     links: [
                         { loadChildren: '../pages/ayuda/ayuda.module#AyudaPageModule', name: 'AyudaPage', segment: 'ayuda', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/calendario/calendario.module#CalendarioPageModule', name: 'CalendarioPage', segment: 'calendario', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/horario/horario.module#HorarioPageModule', name: 'HorarioPage', segment: 'horario', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/login/login.module#LoginPageModule', name: 'LoginPage', segment: 'login', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/modal-services/modal-services.module#ModalServicesPageModule', name: 'ModalServicesPage', segment: 'modal-services', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/nreservat/nreservat.module#NreservatPageModule', name: 'NreservatPage', segment: 'nreservat', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/nreserva/nreserva.module#NreservaPageModule', name: 'NreservaPage', segment: 'nreserva', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/perfil/perfil.module#PerfilPageModule', name: 'PerfilPage', segment: 'perfil', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/reprogramacion/reprogramacion.module#ReprogramacionPageModule', name: 'ReprogramacionPage', segment: 'reprogramacion', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/detalle-reserva/detalle-reserva.module#DetalleReservaPageModule', name: 'DetalleReservaPage', segment: 'detalle-reserva', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/sobreby/sobreby.module#SobrebyPageModule', name: 'SobrebyPage', segment: 'sobreby', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/perfil/perfil.module#PerfilPageModule', name: 'PerfilPage', segment: 'perfil', priority: 'low', defaultHistory: [] }
+                        { loadChildren: '../pages/detalle-reserva/detalle-reserva.module#DetalleReservaPageModule', name: 'DetalleReservaPage', segment: 'detalle-reserva', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/calendario/calendario.module#CalendarioPageModule', name: 'CalendarioPage', segment: 'calendario', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/horario/horario.module#HorarioPageModule', name: 'HorarioPage', segment: 'horario', priority: 'low', defaultHistory: [] }
                     ]
                 }),
                 __WEBPACK_IMPORTED_MODULE_7__ionic_storage__["a" /* IonicStorageModule */].forRoot(),
@@ -195,14 +195,7 @@ var AppModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 391:
-/***/ (function(module, exports) {
-
-/* (ignored) */
-
-/***/ }),
-
-/***/ 399:
+/***/ 389:
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -467,7 +460,14 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 399;
+webpackContext.id = 389;
+
+/***/ }),
+
+/***/ 396:
+/***/ (function(module, exports) {
+
+/* (ignored) */
 
 /***/ }),
 
@@ -885,7 +885,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
   and Angular DI.
 */
 var RestProvider = /** @class */ (function () {
-    //apiUrl = 'http://192.168.100.3:3001';  
+    //apiUrl = 'http://192.168.100.5:3001'; 
     //apiUrl = 'http://10.100.100.139:3001'; 
     function RestProvider(http) {
         this.http = http;
